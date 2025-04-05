@@ -18,7 +18,7 @@ min_number = min(numbers)
 # 4. Записываем результаты в файл result.txt
 with open('result.txt', 'w') as file:
     file.write(f"Сумма: {sum_numbers}\n")
-    file.write(f"Среднее: {average:.2f}\n")  # Добавлено округление до 2 знаков
+    file.write(f"Среднее: {average:.2f}\n")  # Округление до 2 знаков после запятой
     file.write(f"Максимум: {max_number}\n")
     file.write(f"Минимум: {min_number}\n")
 
